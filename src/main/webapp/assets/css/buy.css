@@ -1,0 +1,30 @@
+.order_div1{
+width:100%;
+display:flex;
+text-align:center;
+align-items:center;
+border-bottom:2px solid black;
+padding-bottom:12px;
+}
+.order_div2{
+width:100%;
+display:flex;
+text-align:center;
+align-items:center;
+padding:30px 0;
+border-bottom:1px solid #ddd;
+}
+.delrivew_btn{
+	border:0;
+	outline:0;
+	background-color:#59ab6e;
+	color:#fcfcfc;
+	border-radius: 4px;
+	padding: 2px 5px;
+	cursor:pointer;
+	font-size:0.2rem;
+}
+.delrivew_btn:hover{
+color:#fcfcfc;
+background-color:#49915b;
+}

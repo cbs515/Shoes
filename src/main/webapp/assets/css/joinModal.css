@@ -1,0 +1,245 @@
+@charset "UTF-8";
+
+
+  #modal.modal-overlay {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+          /*   backdrop-filter: blur(1.5px);
+            -webkit-backdrop-filter: blur(1.5px); */
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.18);
+        }
+        
+        
+        
+        #modal .modal-window {
+           /*  background: rgba( 69, 139, 197, 0.70 );
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 13.5px );
+            -webkit-backdrop-filter: blur( 13.5px );
+            border-radius: 10px;
+            border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+
+            position: relative;
+            padding: 10px;
+            width: 600px;
+ 			padding: auto;
+ 			margin: 100px auto;
+			box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+ 			border-radius: 20px;
+ 			background : white;
+ 			overflow-y:auto;
+		    -webkit-overflow-scrolling:touch;
+  			postion : absolute;
+  			background:white;
+  			z-index:2;
+        }
+        
+        
+        
+     /*    #modal .title {
+            padding-left: 10px;
+            display: inline;
+            
+            
+        } */
+      /*   #modal .title h2 {
+            display: inline;
+           
+        } */
+        #modal .close-area {
+            display: inline;
+            float: right;
+            padding-right: 10px;
+            cursor: pointer;
+            text-shadow: 1px 1px 2px gray;
+            color: white;
+            
+        }
+        
+        /* #modal .content {
+            margin-top: 20px;
+            padding: 0px 10px;
+            text-shadow: 1px 1px 2px gray;
+            color: white;
+        } */
+        
+        
+ 
+
+ 
+@font-face {
+    font-family: 'GongGothicMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+.name{
+	text-align: left;
+}
+
+.join-page {
+	
+	overflow-y:auto;
+    -webkit-overflow-scrolling:touch;
+    postion : absolute;
+	
+ /* width: 600px;
+ padding: auto;
+ margin: 100px auto;
+ box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+ border-radius: 20px; */
+
+
+
+}
+
+
+.m-form {
+  position: relative;
+  z-index: 1;
+  max-width: 500px;
+  margin: 0 auto;
+  /* padding: 45px; */
+  text-align: center;
+  font-family: 'Noto Sans KR', sans-serif  !important ;
+  
+}
+
+
+.m-form .h2{
+  /* margin: 0 0 15px; */
+  padding : 50px;
+  /* font-family: noto-sans-cjk-kr, sans-serif; */
+  font-family: 'GongGothicMedium' !important;
+  font-style: normal;
+  font-weight: normal;
+  padding:100px 0 0 0;
+}
+  
+/* ::placeholder {
+  
+  opacity: 1; Firefox
+  font-size: 16px;
+  font-weight: 300;
+
+	
+} */
+
+
+
+.join_title{
+	marign:19px 0 8px;
+	font-size: 14px;
+	font-weight: 700;
+	font-family: 'Noto Sans KR', sans-serif  !important ;
+	
+}
+
+
+.m-form input {
+  font-family: 'Noto Sans KR', sans-serif  !important ;
+  font-size: 10px !important;  outline: 0;
+  background: #f2f2f2;
+  width: 500px;
+  border: 0;
+  margin: 0 0 25px;
+  padding: 10px;
+  box-sizing: border-box;
+ 
+  
+}
+
+.title{
+	margin-bottom : 50px;
+}
+
+.m-form h4{
+  margin: 0 0 10px;
+  font-family:'Noto Sans KR', sans-serif  !important ;
+  text-align: left !important;
+  font-size: 13px !important;
+  font-weight: 700
+  
+}
+
+.m-form .write{
+	margin: 0 0 40px;
+	font-family: 'Noto Sans KR', sans-serif  !important ;
+	
+	
+}
+  
+p.write{
+	font-family: 'Noto Sans KR', sans-serif  !important ;
+	font-size: 13px;
+	font-weight: 400;
+}  
+
+.m-form .button {
+  font-family: 'Noto Sans KR', sans-serif  !important;
+  outline: 0;
+  background: #59ab6e;
+  width: 150px;
+  padding: 15px;
+  color: #FFFFFF;
+  /* font-size: 15px; */
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  font-size: 13px !important;
+  
+}
+
+
+.m-form .btn1{
+	width: 78%;
+	font-family: 'Noto Sans KR', sans-serif  !important ;
+	font-size: 13px !important;
+	
+}
+.m-form .btn2{
+	background: #59ab6e;
+	width: 20%;
+	cursor: pointer;
+	color: #FFFFFF;
+	font-family: 'Noto Sans KR', sans-serif  !important ;
+	font-size: 13px !important;
+}
+
+
+.m-form .button:hover,.m-form .button:active,.m-form .button:focus {
+  background: #49915b;
+}
+
+
+.m-form .btn2:hover,.m-form .btn2:active,.m-form .btn2:focus {
+  background: #49915b;
+}
+
+
+
+
+
+
+/* body {
+  background: #76b852; fallback for old browsers
+  background: -webkit-linear-gradient(right, #76b852, #8DC26F);
+  background: -moz-linear-gradient(right, #76b852, #8DC26F);
+  background: -o-linear-gradient(right, #76b852, #8DC26F);
+  background: linear-gradient(to left, #76b852, #8DC26F);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+} */

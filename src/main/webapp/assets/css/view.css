@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+.amend {
+display:none;
+}
+.contents{
+display:block;
+}
+ul{
+list-style:none;
+}
+.del_btn{
+	border:0;
+	outline:0;
+	background-color:#59ab6e;
+	color:#fcfcfc;
+	border-radius: 4px;
+	padding: 2px 5px;
+	cursor:pointer;
+	font-size:0.2em;
+	margin-top:-1px;
+}
+.update_btn{
+	border:0;
+	outline:0;
+	background-color:#59ab6e;
+	color:#fcfcfc;
+	border-radius: 4px;
+	padding: 2px 5px;
+	cursor:pointer;
+	font-size:0.2em;
+	
+}
+.da2{
+	background-color:#59ab6e;
+	color:#fcfcfc;
+	border-radius: 4px;
+	padding: 2px;
+	cursor:pointer;
+}
+.update_btn:hover,.da2:hover,.del_btn:hover{
+	color:#fcfcfc;
+	background-color:#49915b;
+}
+hr{
+color:#59ab6e;
+size:10px;
+}
+.hr{
+list-style:none;
+}
+.box {
+  margin : 20px; 
+  padding : 30px;
+  border : 1px solid gray;
+  border-radius : 5px;
+}
+.title{
+color:#333333;
+font:26px "Apple SD Gothic Neo","맑은 고딕";
+}
+.date{
+color:#979797;
+font:12px "Apple SD Gothic Neo","맑은 고딕";
+float:right;
+}
+.reply{
+margin-bottom: -20px;
+}
+.div1{
+margin-top: -15px;
+}
+.up_del{
+margin-top: -20px;
+float:right;
+}
+.date2{
+color:#979797;
+font:12px "Apple SD Gothic Neo","맑은 고딕";
+margin-top:-50px;
+}
+
+.btn1{
+margin-top:0px;
+float:right;
+}
+.da1{
+text-align:center;
+margin-top:-10px;
+}
+
+a,a:hover{
+color:#000000;
+text-decoration: none;
+}
